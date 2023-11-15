@@ -1,0 +1,96 @@
+.logo-img {
+    position: absolute;
+    top: 1.25rem;
+    left: 0px;
+    width: 12.5rem; /* Ajuste o valor conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.login-container {
+    background-color: #487EFF; /* Azul claro */
+    padding: 1.25rem;
+    border-radius: 3.125rem;
+    width: 25rem;
+    height: 25rem;
+    margin: 0 auto; /* Centralizar horizontalmente */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centralizar verticalmente */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topo{
+    font-size: 0.625rem;
+    font-weight: bold;
+    color:#ff8800;
+    font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha */
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.down{
+    margin-top: 1.5625rem;
+    font-size: 0.625rem;
+    font-weight: bold;
+    color:#ff8800;
+    font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha */
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.input-container {
+    margin-bottom: 0.9375rem;
+}
+
+.label {
+    display: block;
+    margin-bottom: 0.3125rem;
+}
+
+.login-input {
+    width: 100%;
+    padding: 0.625rem;
+    color: #fff;
+    background-color: #5d5d5d;
+    border: none;
+    border-radius: 0.3125rem;
+    font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.login-button {
+    align-self: center;
+    margin-top: 1.5625rem;
+    background-color: #ff8800; /* Azul de aço */
+    color: #fff;
+    padding: 0.75rem 1.25rem;
+    border: none;
+    transform: translate(+90%, -320%); /* Centralizar verticalmente */
+    border-radius: 2.5rem;
+    cursor: pointer;
+    font-size: large;
+    font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha */
+}
+
+.login-fields {
+    width: 100%;
+    margin-bottom: 0.625rem;
+    font-family: 'Roboto', sans-serif; /* Substitua 'Roboto' pela fonte de sua escolha */
+}
+
+.twitter{
+    transform: translate(+30%, +15%); /* Centralizar verticalmente */
+}
+
+.linkedin{
+    transform: translate(+50%, -80%); /* Centralizar verticalmente */
+}
+
+.facebook{
+    transform: translate(+32%, -105%); /* Centralizar verticalmente */
+}
+
+.google{
+    transform: translate(+52%, -190%); /* Centralizar verticalmente */
+}

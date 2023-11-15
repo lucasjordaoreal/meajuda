@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Administração</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/estilos/admin.css">
+</head>
+<body>
+    <h1>Painel de Administração</h1>
+
+    <div id="imoveis-container">
+        <!-- Lista de imóveis será exibida aqui -->
+    </div>
+
+    <form id="novoImovelForm" enctype="multipart/form-data">
+        <label for="nome">Nome do Imóvel:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="endereco" required>
+
+        <label for="imagem">Imagem:</label>
+        <input type="file" id="imagem" name="imagem" accept="image/*" required>
+
+        <label for="preco">Preço:</label>
+        <input type="text" id="preco" name="preco" required>
+
+        <button type="button" onclick="adicionarImovel()">Adicionar Imóvel</button>
+    </form>
+
+    <script src="/scripts/adminDashboard.js"></script>
+</body>
+</html>
